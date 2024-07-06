@@ -270,7 +270,7 @@ margin-bottom: 24px;
 
 /* background */
 #social .social-container{
-    background-image: url(../assets/social-bg.png);
+    background-image:linear-gradient(rgba(249, 247, 247, 0.7),rgba(246, 239, 239, 0.7)), url(../assets/social-bg.png);
     width: auto;
     height: 503.25px;
     background-size: cover;
