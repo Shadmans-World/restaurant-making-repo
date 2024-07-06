@@ -181,6 +181,7 @@ margin: 18px auto 48px auto;
 
 #about{
     width:1440 px;
+    /* margin-bottom: 50px; */
     
 }
 
@@ -196,6 +197,7 @@ margin: 18px auto 48px auto;
     height: 496px;
     max-width: 720px;
     min-width: 720px;
+    background-size: cover;
     
 }
 
@@ -254,6 +256,106 @@ margin-bottom: 24px;
 }
 
 .about-icon ul li img{
+    height: 30px;
+    width: 30px;
+}
+
+/* social */
+
+#social{
+    width: 100%;
+    height: 503.25px;
+    
+}
+#social .social-container{
+    background-image: url(../assets/social-bg.png);
+    width: auto;
+    height: 503.25px;
+    background-size: cover;
+    /* filter: blur(20px); */
+    opacity: 0.2;
+    
+    
+}
+.social-content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.social-content2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.social-content2 h1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.social-content2 p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 1;
+}
+
+.social-span{
+    width: 990px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+padding: 22.5px 7.5px 22.5px 7.5px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.social-icon{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+.social-icon ul {
+    display: flex;
+    gap: 24px;
+}
+
+.social-icon ul li{
+   list-style: none;
+}
+
+.social-icon ul li img{
     height: 30px;
     width: 30px;
 }
